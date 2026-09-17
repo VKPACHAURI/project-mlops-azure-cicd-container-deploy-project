@@ -10,7 +10,7 @@ trigger:
       - master
 
 variables:
-  IMAGE_TAG: 'v1'                              # Change to v2 and push to trigger deploy
+  IMAGE_TAG: 'v2'                              # Change to v2 and push to trigger deploy
   DOCKER_IMAGE: '03sarath/yolo-mlops'
   CONTAINER_APP_NAME: 'ml-app'
   RESOURCE_GROUP: 'ml-rg'
